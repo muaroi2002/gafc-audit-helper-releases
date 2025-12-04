@@ -6,11 +6,11 @@
     "Hardware fingerprinting with multi-tier fallback",
     "Dynamic validation intervals based on expiry proximity"
   ],
+  "latest": "1.0.4",
+  "file_size_bytes": 234464,
   "download_url": "https://github.com/muaroi2002/gafc-audit-helper-releases/releases/download/v1.0.4/gafc_audit_helper.xlam",
   "release_notes": "Release version 1.0.4",
-  "latest": "1.0.4",
-  "min_excel_version": "2016",
+  "sha256": "5d995a91d6c136cc42ae177aac5e3a804a1dd49900d05430a288cb418d33b8fe",
   "release_date": "2025-12-04",
-  "sha256": "1b3e16f65770dabccc5064b681710ad9a1949d858d3275f5c3968c44b73aaa57",
-  "file_size_bytes": 221926
+  "min_excel_version": "2016"
 }
