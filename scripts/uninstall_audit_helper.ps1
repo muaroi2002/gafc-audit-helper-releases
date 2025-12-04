@@ -1,7 +1,7 @@
 $ErrorActionPreference = "Stop"
 
 $xlStart   = Join-Path $env:APPDATA "Microsoft\Excel\XLSTART"
-$addinName = "chuyen_dau_ki_v9.xlam"
+$addinName = "gafc_audit_helper.xlam"
 $target    = Join-Path $xlStart $addinName
 
 if (Test-Path $target) {
