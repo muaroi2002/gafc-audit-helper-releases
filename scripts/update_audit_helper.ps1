@@ -84,9 +84,16 @@ if (Test-Path $Target -PathType Leaf -ErrorAction SilentlyContinue) {
             exit 0
         }
     }
-    # Backup current version before replacing
-    Write-Log "Creating backup of current version..." "Cyan"
-    Copy-Item $Target ($Target + ".bak") -Force
+    # Remove current version (no backup needed - we already verified download)
+    Write-Log "Removing current version..." "Cyan"
+    Remove-Item $Target -Force
+}
+
+# Clean up any old .bak files
+$bakFile = $Target + ".bak"
+if (Test-Path $bakFile) {
+    Write-Log "Removing old backup file..." "Cyan"
+    Remove-Item $bakFile -Force -ErrorAction SilentlyContinue
 }
 
 # Copy to XLSTART
