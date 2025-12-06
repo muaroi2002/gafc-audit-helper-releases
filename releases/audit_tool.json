@@ -1,7 +1,8 @@
 {
-  "sha256": "d17b0a62cab282c8e0d4904c9346030bdda13c77ed9a3818456fb4acc74d3f15",
   "min_excel_version": "2016",
-  "release_notes": "Release version 1.0.7",
+  "file_size_bytes": 220477,
+  "sha256": "819196548611c18d2d501d67a82f3aa14d9077ebd5fc108bfb48f5c2bc4dc219",
+  "release_date": "2025-12-06",
   "changelog": [
     "License validation with online/offline grace periods",
     "State file encryption and checksum validation",
@@ -9,8 +10,7 @@
     "Hardware fingerprinting with multi-tier fallback",
     "Dynamic validation intervals based on expiry proximity"
   ],
-  "download_url": "https://github.com/muaroi2002/gafc-audit-helper-releases/releases/download/v1.0.7/gafc_audit_helper.xlam",
-  "release_date": "2025-12-05",
-  "latest": "1.0.7",
-  "file_size_bytes": 219675
+  "latest": "1.0.8",
+  "release_notes": "Release version 1.0.8",
+  "download_url": "https://github.com/muaroi2002/gafc-audit-helper-releases/releases/download/v1.0.8/gafc_audit_helper.xlam"
 }
