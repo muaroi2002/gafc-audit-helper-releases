@@ -1,11 +1,11 @@
 {
-  "latest": "1.0.16",
-  "release_notes": "Release version 1.0.16",
-  "file_size_bytes": 282982,
-  "download_url": "https://github.com/muaroi2002/gafc-audit-helper-releases/releases/download/v1.0.16/gafc_audit_helper.xlam",
+  "file_size_bytes": 281871,
+  "release_notes": "Release version 1.0.17",
+  "release_date": "2026-01-03",
   "min_excel_version": "2016",
-  "sha256": "9bd37a68ce73fe7cb4826c653304771345ee0f5e2efc15ee2b1e585f696ffa93",
-  "release_date": "2025-12-29",
+  "sha256": "2f1562cf132a13f46ba41d731f38616f948f8b5efdd6e9847c6577afddc4f78b",
+  "download_url": "https://github.com/muaroi2002/gafc-audit-helper-releases/releases/download/v1.0.17/gafc_audit_helper.xlam",
+  "latest": "1.0.17",
   "changelog": [
     "License validation with online/offline grace periods",
     "State file encryption and checksum validation",
