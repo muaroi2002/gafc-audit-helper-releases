@@ -1,16 +1,16 @@
 {
   "file_size_bytes": 281871,
-  "release_notes": "Release version 1.0.17",
-  "release_date": "2026-01-03",
   "min_excel_version": "2016",
+  "release_date": "2026-01-07",
   "sha256": "2f1562cf132a13f46ba41d731f38616f948f8b5efdd6e9847c6577afddc4f78b",
-  "download_url": "https://github.com/muaroi2002/gafc-audit-helper-releases/releases/download/v1.0.17/gafc_audit_helper.xlam",
-  "latest": "1.0.17",
+  "latest": "1.0.18",
   "changelog": [
     "License validation with online/offline grace periods",
     "State file encryption and checksum validation",
     "Clock tampering detection",
     "Hardware fingerprinting with multi-tier fallback",
     "Dynamic validation intervals based on expiry proximity"
-  ]
+  ],
+  "release_notes": "Release version 1.0.18",
+  "download_url": "https://github.com/muaroi2002/gafc-audit-helper-releases/releases/download/v1.0.18/gafc_audit_helper.xlam"
 }
